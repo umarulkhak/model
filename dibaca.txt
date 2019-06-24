@@ -1,0 +1,13 @@
+// Halam Login Karyawan
+username = user
+password = user
+
+//Halam Login Admin
+
+username = admin
+password = admin
+
+
+// proses aplikasi
+
+Masukan NIP sesuai yg ada di databse untuk absen.

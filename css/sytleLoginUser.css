@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/background.PNG);
+}
+
+ .container {
+   top: 50%;
+   left: 50%;
+   width: 250px;
+   padding: 70px 60px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   background: black;
+   text-align: center;
+   border: 2px solid #01254A;
+   border-radius: 15px;
+ }
+
+ .container h1{
+   color: #fff;
+   font-weight: 500;
+ }
+
+ .container .name, .container .password, .container .submit {
+   background: none;
+   display: block;
+   text-align: center;
+   margin: 15px auto;
+   padding: 10px 10px;
+   border: 2px solid #01254A;
+   outline: none;
+   color: #fff;
+   border-radius: 25px;
+   transition: 0.2s;
+ }
+
+.container .name:focus, .container .password:focus {
+  width:220px;
+  border-color: #1BB6D6;
+}
+
+.container .submit{
+  width: 80px;
+  cursor: pointer;
+}
+
+.container .submit:hover{
+  background: #1BB6D6;
+}
+
+body h4{
+  margin-left: 90%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #01254A;
+  padding: 10px 10px;
+}
